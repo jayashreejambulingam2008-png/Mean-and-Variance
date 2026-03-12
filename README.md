@@ -52,7 +52,7 @@ It shows the distance of a random variable from its mean. It is calcualted as
 Developed by: JAYASHREE J
 Reg no: 212225040145
 
-import numpy as np
+```import numpy as np
 L=[int(i) for i in input().split()]
 N=len(L)
 M=max(L)
@@ -76,7 +76,7 @@ sd=np.sqrt(var)
 print(f"The Mean arrival rate is {mean:.3f} ")
 print(f"The Variance of arrival from feeder is {var:.3f}")
 print(f"The Standard deviation of arrival from feeder is {sd:.3f}")
-
+```
 
 
 # Output : 
